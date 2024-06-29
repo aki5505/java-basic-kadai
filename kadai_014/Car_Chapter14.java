@@ -4,12 +4,15 @@ public class Car_Chapter14 {
 
     private int gear = 1;
     private int speed = 10;
+    int oldGear = gear;
     
     public Car_Chapter14() {
     	
     }
 
     public void gearChange(int afterGear) {
+    	
+    	
 
         this.gear = afterGear;
         
@@ -26,7 +29,7 @@ public class Car_Chapter14 {
     }
 
     public void run() {
-        System.out.println("ギア1" + "から" + this.gear + "に切り替えました");
+        System.out.println("ギア" + oldGear + "から" + this.gear + "に切り替えました");
         System.out.println("速度は時速" + this.speed + "kmです");
 
     }
