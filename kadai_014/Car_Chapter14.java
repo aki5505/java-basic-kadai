@@ -11,8 +11,6 @@ public class Car_Chapter14 {
     }
 
     public void gearChange(int afterGear) {
-    	
-    	
 
         this.gear = afterGear;
         
