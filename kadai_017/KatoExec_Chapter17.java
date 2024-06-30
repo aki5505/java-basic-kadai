@@ -4,14 +4,17 @@ public class KatoExec_Chapter17 {
 
     public static void main(String[] args) {
 
-        Kato_Chapter17 Taro  = new KatoHanako_Chapter17();
+        KatoTaro_Chapter17 Taro = new KatoTaro_Chapter17();
+        Taro.setGivenName();
         Taro.execIntroduce();
-        
-        Kato_Chapter17 Ichiro = new KatoHanako_Chapter17();
+
+        KatoIchiro_Chapter17 Ichiro = new KatoIchiro_Chapter17();
+        Ichiro.setGivenName();
         Ichiro.execIntroduce();
 
-        Kato_Chapter17 Hanako = new KatoHanako_Chapter17();
+        KatoHanako_Chapter17 Hanako = new KatoHanako_Chapter17();
+        Hanako.setGivenName();
         Hanako.execIntroduce();
-        
+
     }
 }

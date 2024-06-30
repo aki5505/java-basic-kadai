@@ -8,8 +8,6 @@ abstract public class Kato_Chapter17 {
 
     public String address;
 
-    abstract public void setGivenName();
-
     public void commonIntroduce() {
 
         familyName = "加藤";
@@ -22,9 +20,9 @@ abstract public class Kato_Chapter17 {
 
     public void execIntroduce() {
 
-        setGivenName();
         commonIntroduce();
         eachIntroduce();
+        System.out.println();
 
     }
 
